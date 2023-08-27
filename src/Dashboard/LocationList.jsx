@@ -7,48 +7,11 @@ import progressRed from "../Assets/progress_red.svg";
 import progressGreenEnd from "../Assets/progress_green_end.svg";
 import progressRedEnd from "../Assets/progress_red_end.svg";
 
-function LocationList() {
-	const sampleData = [
-		{
-			name: "RV Public School Rhastriya Vidyalaya Road",
-			distance: "0",
-			time: "10:35 am",
-		},
-		{
-			name: "Patel M Kempiah Circle",
-			distance: "0.4",
-			time: "10:36 am",
-		},
-		{
-			name: "JC Road",
-			distance: "1.2",
-			time: "10:38 am",
-		},
-		{
-			name: "Mysore Road",
-			distance: "1.6",
-			time: "",
-		},
-		{
-			name: "Hudson Circle",
-			distance: "2.4",
-			time: "",
-		},
-		{
-			name: "Corporation Circle",
-			distance: "3.2",
-			time: "",
-		},
-		{
-			name: "Vydehi Hospital",
-			distance: "4.4",
-			time: "",
-		},
-	];
+function LocationList({ curData }) {
 
 	let maxDistance = 0;
-	sampleData.forEach((data) => {
-		if (data.time !== "") {
+	curData.junctions.forEach((data) => {
+		if (data.time) {
 			maxDistance = Math.max(maxDistance, parseFloat(data.distance));
 		}
 	});
@@ -56,29 +19,29 @@ function LocationList() {
 	function Progress({ data, index }) {
 		return (
 			<div className="relative inline-block md:w-[25%] lg:w-[20%]">
-				{index === sampleData.length - 1 ? (
+				{index === curData.junctions.length - 1 ? (
 					<img
-						src={data.time === "" ? progressRedEnd : progressGreenEnd}
+						src={data.time ? progressGreenEnd : progressRedEnd}
 						alt="progress"
 						className="h-[auto] w-[100%]"
 					></img>
 				) : (
 					<img
-						src={data.time === "" ? progressRed : progressGreen}
+						src={data.time ? progressGreen : progressRed}
 						alt="progress"
 						className="h-[auto] w-[100%]"
 						style={{ zIndex: 1 }} // Ensure the image is behind the text
 					/>
 				)}
-            {data.time === "" && (
+            {!data.time && (
                <div
-					className="absolute md:top-4 lg:top-5 left-0 w-full h-full flex items-top justify-center"
+					className="absolute md:top-[0.8rem] lg:top-4 left-0 w-full h-full flex items-top justify-center"
 					style={{ zIndex: 2 }} // Ensure the text is on top of the image
 				>
 					{/* Your overlay text */}
 					<span className="text-white text-xs">
 						{" "}
-						{Math.floor(parseFloat(data.distance) - maxDistance)} mins
+						{Math.ceil(parseFloat(data.distance)- maxDistance)} mins
 					</span>
 				</div>
             )}
@@ -92,7 +55,7 @@ function LocationList() {
 				North Region
 			</Typography>
 			<div>
-				{sampleData.map((data, index) => (
+				{curData.junctions.map((data, index) => (
 					<div key={index} className="flex items-top gap-4">
 						<Progress data={data} index={index} />
 
@@ -100,7 +63,7 @@ function LocationList() {
 							<Typography className="md:text-xs lg:text-sm">
 								{data.name}
 							</Typography>
-							{data.time !== "" ? (
+							{data.time ? (
 								<Typography className="md:text-[0.7rem] lg:text-xs text-gray-400">
 									{data.distance} km | {data.time}
 								</Typography>

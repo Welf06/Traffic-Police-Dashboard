@@ -21,7 +21,7 @@ export default function NavbarComponent() {
          <img src={apmLogo} alt="logo" className="md:h-6 md:w-16 lg:h-8 lg:w-28" />
         </div>
         <Typography
-          className="mr-4 cursor-pointer py-1 font-bold md:text-lg lg:text-xl tracking-tighter leading-tight"
+          className="mr-4 cursor-pointer py-1 font-bold text-black md:text-lg lg:text-xl tracking-tighter leading-tight"
         >
           APM Traffic Assist System
         </Typography>

@@ -1,0 +1,311 @@
+[
+   {
+      "id": 0,
+      "start": {
+         "lat": 12.949005183374135,
+         "lng": 77.58025191194473
+      },
+      "junctions": [
+         {
+            "name": "RV Public School Rhastriya Vidyalaya Road",
+            "distance": "0",
+            "time": "10:35 am",
+            "lat": 12.949005183374135,
+            "lng": 77.58025191194473
+         },
+         {
+            "name": "Patel M Kempiah Circle",
+            "distance": "0.4",
+            "time": "10:36 am",
+            "lat": 12.948005183374135,
+            "lng": 77.58025191194473
+         },
+         {
+            "name": "JC Road",
+            "distance": "1.2",
+            "time": "10:38 am",
+            "lat": 12.948005183374135,
+            "lng": 77.58025191194473
+         },
+         {
+            "name": "Mysore Road",
+            "distance": "1.6",
+            "lat": 12.948005183374135,
+            "lng": 77.58025191194473
+         },
+         {
+            "name": "Hudson Circle",
+            "distance": "2.4",
+            "lat": 12.948005183374135,
+            "lng": 77.58025191194473
+         },
+         {
+            "name": "Corporation Circle",
+            "distance": "3.2",
+            "lat": 12.948005183374135,
+            "lng": 77.58025191194473
+            
+         },
+         {
+            "name": "Vydehi Hospital",
+            "distance": "4.4"
+         }
+      ],
+      "end": {
+         "lat": 12.968563597066359,
+         "lng": 77.59510197064563
+      }
+   },
+   {
+      "id": 1,
+      "start": {
+         "lat": 12.97912832688981,
+         "lng": 77.64080901067943
+      },
+      "junctions": [
+         {
+            "name": "Indiranagar",
+            "lat": 12.97912832688981,
+            "lng": 77.64080901067943,
+            "distance": "0",
+            "time": "10:36 am"
+         },
+         {
+            "name": "Indiranagar 12th main road junction",
+            "lat": 12.970245,
+            "lng": 77.641173,
+            "distance": "0.8",
+            "time": "10:37 am"
+         },
+         {
+            "name": "17th main road junction",
+            "lat": 12.963404,
+            "lng": 77.641578,
+            "distance": "1.6",
+            "time": "10:38 am"
+         },
+         {
+            "name": "Domlur Flyover",
+            "lat": 12.961846,
+            "lng": 77.641655,
+            "distance": "2.4"
+         },
+         {
+            "name": "HAL Airport Road",
+            "lat": 12.960420,
+            "lng": 77.643443,
+            "distance": "2.8"
+         },
+         {
+            "name": "Leela Palace Road",
+            "lat": 12.959732,
+            "lng": 77.649126,
+            "distance": "3.0"
+         },
+         {
+            "name": "Manipal Hospital",
+            "lat": 12.9591376654961,
+            "lng": 77.64892000722841,
+            "distance": "3.2"
+         }
+      ],
+      "end": {
+         "lat": 12.9591376654961,
+         "lng": 77.64892000722841
+      }
+   },
+   {
+      "id": 2,
+      "start": {
+         "lat": 12.935190098227128,
+         "lng": 77.62446410244725
+      },
+      "junctions": [
+         {
+            "name": "Kormangala",
+            "lat": 12.935190098227128,
+            "lng": 77.62446410244725,
+            "distance": "0",
+            "time": "10:37 am"
+         },
+         {
+            "name": "Sony World Junction",
+            "lat": 12.934588790349274,
+            "lng": 77.6234019336003,
+            "distance": "0.2",
+            "time": "10:38 am"
+         },
+         {
+            "name": "Inner Ring Road",
+            "lat": 12.927548682355397,
+            "lng": 77.62094317373041,
+            "distance": "1.0"
+         },
+         {
+            "name": "St John Hospital's Junction",
+            "lat": 12.929029,
+            "lng": 77.617473,
+            "distance": "2.2"
+         },
+         {
+            "name": "St. John's Medical College Hospital",
+            "lat": 12.93101788799785,
+            "lng": 77.61951274469466,
+            "distance": "2.5"
+         }
+      ],
+      "end": {
+         "lat": 12.93101788799785,
+         "lng": 77.61951274469466
+      }
+   },
+   {
+      "id": 3,
+      "start": {
+         "lat": 12.930706477963685,
+         "lng": 77.58383939301774
+      },
+      "junctions": [
+         {
+            "name": "Jaynagar",
+            "lat": 12.930706477963685,
+            "lng": 77.58383939301774,
+            "distance": "0",
+            "time":"10:35 am"
+         },
+         {
+            "name": "32nd E Cross Road",
+            "lat": 12.928636401012247,
+            "lng": 77.58699812291493,
+            "distance": "0.4",
+            "time":"10:36 am"
+         },
+         {
+            "name": "18th Main Road Junction",
+            "lat": 12.927150,
+            "lng": 77.589710,
+            "distance": "0.8",
+            "time":"10:37 am"
+         },
+         {
+            "name": "36th Cross Road Junction",
+            "lat": 12.923335,
+            "lng": 77.589644,
+            "distance": "1.2",
+            "time":"10:38 am"
+
+         },
+         {
+            "name": "Bannerghatta Main Road Junction",
+            "lat": 12.923063,
+            "lng": 77.600236,
+            "distance": "1.5"
+         },
+         {
+            "name": "Sagar Hospitals",
+            "lat": 12.927948343615933,
+            "lng": 77.59957513700392,
+            "distance": "2.1"
+         }
+      ],
+      "end": {
+         "lat": 12.927948343615933,
+         "lng": 77.59957513700392
+      }
+   },
+   {
+      "id": 4,
+      "start": {
+         "lat": 12.974991024918344,
+         "lng": 77.60946945388864
+      },
+      "junctions": [
+         {
+            "name": "MG Road",
+            "lat": 12.974991024918344,
+            "lng": 77.60946945388864,
+            "distance": "0",
+            "time": "10:38 am"
+         },
+         {
+            "name": "Brigade Road",
+            "lat": 12.975063,
+            "lng": 77.608021,
+            "distance": "0.2"
+         },
+         {
+            "name": "Magrath Road",
+            "lat": 12.971482,
+            "lng": 77.607075,
+            "distance": "0.4"
+         },
+         {
+            "name": "Primrose Road Junction",
+            "lat": 12.969742298021298,
+            "lng": 77.61201658146618,
+            "distance": "0.8"
+         },
+         {
+            "name": "Hosmat Hospital",
+            "lat": 12.973092725220251,
+            "lng": 77.61283059860538,
+            "distance": "1.2"
+         }
+      ],
+      "end": {
+         "lat": 12.973092725220251,
+         "lng": 77.61283059860538
+      }
+   },
+   {
+      "id": 5,
+      "start": {
+         "lat": 12.970141568557104,
+         "lng": 77.75008410985879
+      },
+      "junctions": [
+         {
+            "name": "Whitefield",
+            "lat": 12.970141568557104,
+            "lng": 77.75008410985879,
+            "distance": "0",
+            "time": "10:37 am"
+         },
+         {
+            "name": "Whitefield Main Road Junction",
+            "lat": 12.969373,
+            "lng": 77.735623,
+            "distance": "0.8",
+            "time": "10:38 am"
+         },
+         {
+            "name": "Bescom office Junction",
+            "lat": 12.969912,
+            "lng": 77.735222,
+            "distance": "1.2"
+         },
+         {
+            "name": "Nallurhalli Road Junction",
+            "lat": 12.969711,
+            "lng": 77.732084,
+            "distance": "1.6"
+         },
+         {
+            "name": "Divyasree technopark main junction",
+            "lat": 12.971520,
+            "lng": 77.726870,
+            "distance": "2.5"
+         },
+         {
+            "name": "Vydehi Hospital",
+            "lat": 12.975118152458275,
+            "lng": 77.72770375845269,
+            "distance": "3.3.4"
+         }
+      ],
+      "end": {
+         "lat": 12.975118152458275,
+         "lng": 77.72770375845269
+      }
+   }
+]

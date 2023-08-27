@@ -12,7 +12,7 @@ function MiniMaps({ curData, data, setCurData }) {
 				arrows
 				autoPlaySpeed={3000}
 				centerMode={false}
-				className="w-[100%] h-[100%] my-0"
+				className="w-[100%] h-[100%] my-2"
 				containerClass="container-with-dots"
 				dotListClass=""
 				draggable

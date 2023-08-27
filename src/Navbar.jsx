@@ -23,7 +23,8 @@ export default function NavbarComponent() {
         <Typography
           className="mr-4 cursor-pointer py-1 font-bold text-black md:text-lg lg:text-xl tracking-tighter leading-tight"
         >
-          APM Traffic Assist System
+          {/* APM Traffic Assist System */}
+          ಟ್ರಾಫಿಕ್ ಅಸಿಸ್ಟ್ ಸಿಸ್ಟಮ್
         </Typography>
         <img src={policeLogo} alt="logo" className="md:h-10 md:w-10 lg:h-12 lg:w-12" />
       </div>

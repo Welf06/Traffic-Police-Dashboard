@@ -8,6 +8,7 @@ import LocationList from "./LocationList";
 import MiniMaps from "./MiniMaps";
 
 import logo from "../Assets/logo.png";
+import statistics from "../Assets/sample_data.svg"
 import sampleData from './sampleData.json'
 
 
@@ -24,7 +25,8 @@ function Dashboard() {
 					<div className="h-[70%] overflow-auto">
 						<LocationList curData={curData}/>
 					</div>
-					<div className="h-[30%] flex flex-col items-center justify-center gap-1 mt-4">
+					<div className="h-[30%] flex flex-col items-center justify-center gap-1 mt-2">
+                  <img src={statistics} alt="statistics" className="md:h-24 md:w-60 lg:h-32 lg:w-72"/>
 						<Typography className="text-gray-400 md:text-md lg:text-lg">
 							Powered by
 						</Typography>
